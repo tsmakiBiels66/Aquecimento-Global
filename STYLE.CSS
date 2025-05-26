@@ -1,0 +1,80 @@
+/* Variáveis */
+:root {
+    --primary-color: #050707;
+    --secondary-color: #3CA6A6;
+    --text-color: #060007;
+    --background-color: #ffffff;
+    --button-hover: #ffffff;
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+    }
+    
+    /* código omitido */
+    /* código omitido */
+    
+    /* Reset */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+    }
+    
+    /* Corpo da página */
+    body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    }
+    
+    h3 {
+    margin-top: 25px;
+    }
+    
+    p {
+    margin-top: 20px;
+    }
+    
+    img {
+    max-width: 90%;
+    }
+    .lista{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    }
+    .nav1, .nav2, .nav3{
+    background-color: #bbd1da;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: rgb(255, 0, 212)
+    }
+    .texto1{
+    color: red;
+    }
+    
+    /* código omitido */
+    
+    /* código omitido */
+    
+    /* Responsividade */
+    @media (max-width: 768px) {
+    .conteudo {
+    width: 90%;
+    }
+    
+    nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    nav ul li {
+    margin: 5px 0;
+    }
+    
+    .cta-button {
+    width: 100%;
+    }
+    }
